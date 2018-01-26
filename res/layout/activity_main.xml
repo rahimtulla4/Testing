@@ -11,7 +11,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="28dp"
         android:ems="10"
-        android:hint="Number of seconds"
+        android:hint="Number of seconds time"
         android:inputType="numberDecimal" />
     <Button
 

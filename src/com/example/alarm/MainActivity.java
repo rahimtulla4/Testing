@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
     AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
     alarmManager.set(AlarmManager.RTC_WAKEUP, System.currentTimeMillis()
    + (i * 1000), pendingIntent);
-    Toast.makeText(this, "Alarm set in " + i + " seconds",
+    Toast.makeText(this, "Alarm set in " + i + " seconds time",
    Toast.LENGTH_LONG).show();
  }
 
